@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Numba</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<h1>Ready to Gamble <br>Guess the Number</h1>
+
+<p>Errate die Zahl zwischen 1 und 100.<br>Schaffst du es in weniger als 10 Versuchen?</p>
+
+    <div class="form">
+      <label for="guessField">Deine Zahl: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField">
+      <input type="submit" value="Senden" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+</body>
+<script src="guessthenumba.js"></script>
+<script>
+</html>

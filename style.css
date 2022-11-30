@@ -1,0 +1,31 @@
+
+  body {
+    
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(dice1111.jpg);
+    background-position: relative;
+    background-size: cover;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 244, 87);
+    position: absolute;
+    font-size: 40px;
+  }
+  
+  .form input[type="number"] {
+    width: 55px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .lastResult {
+    color: rgb(68, 13, 197);
+    padding: 3px;
+  }
